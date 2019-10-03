@@ -118,8 +118,15 @@
               "devServerTarget": "TechTalkShow:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://arlinskiev.github.io/TechTalkShow/"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "TechTalkShow"
 }
