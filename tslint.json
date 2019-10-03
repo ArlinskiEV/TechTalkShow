@@ -67,6 +67,11 @@
       "as-needed"
     ],
     "object-literal-sort-keys": false,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-whitespace"
+    ],
     "ordered-imports": false,
     "quotemark": [
       true,
