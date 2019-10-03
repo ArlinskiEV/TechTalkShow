@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, app-root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-main {
+  &__container {
+    height: 100%;
+    display: flex;
+    justify-content: stretch;
+  }
+
+  &__item {
+    flex: 1;
+    border: 1px solid red;
+    margin: 5px;
+  }
+}
